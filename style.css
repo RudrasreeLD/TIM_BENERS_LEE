@@ -1,0 +1,76 @@
+body {
+    background-color: lightcoral;
+    text-align: center;
+    padding-top: 800px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+img {
+    width: 400px;
+    padding-top: 100px;
+}
+
+#Welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom right, lightcoral, lightblue);
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
+p {
+    max-width: 800px;
+    font-size: 25px;
+    margin: 25px auto;
+}
+
+h1 {
+    font-size: 60px;
+    text-shadow: 5px 5px yellow;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 300px;
+}
+
+.links {
+    display: inline;
+    float: left;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+}
+
+.links:hover {
+    background-color: white;
+    font-size: 25px;
+    color: black;
+}
+
+a:hover {
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+}
+
+.contact_1 h2 {
+    display: inline;
+}
+
+#Contact {
+    background-image: linear-gradient(to bottom right, lightcoral, lightblue);
+}
